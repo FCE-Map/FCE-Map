@@ -1,14 +1,19 @@
-# [FIUBA Map](https://fdelmazo.github.io/FIUBA-Map/)
+# [FCE Map](https://fdelmazo.github.io/FIUBA-Map/)
 
-Mapa de materias y sus correlativas de la Facultad de Ingeniería
+Este proyecto esta hecho en base al FIUBA Map (https://fdelmazo.github.io/FIUBA-Map/) el código fué adaptado para la Facultad de Ciencias Económicas de la UBA. 
+
+Todo el crédito es para el autor y los contribuyentes del FIUBA Map.
+
+
+Mapa de materias y sus correlativas de la Facultad de Ciencias Económicas
 
 ---
 
-La idea de este proyecto es presentar de una manera interactiva y visualmente rica en información el plan de estudios de las carreras de la Facultad de Ingeniería, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
+La idea de este proyecto es presentar de una manera interactiva y visualmente rica en información el plan de estudios de las carreras de la Facultad de Ciencias Económicas, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
 
 <a href='https://imgur.com/QkXbwFc'><img src='public/fmap.png'></a>
 
-- Tiene todas las carreras que se dan en la Facultad de Ingeniería, en sus respectivos últimos planes de estudio.
+- Tiene todas las carreras que se dan en la Facultad de Ciencias Económicas, en sus respectivos últimos planes de estudio.
 
 - Todas las carreras incluyen todas las materias electivas y todas las materias de sus respectivas orientaciones.
 
@@ -29,3 +34,7 @@ Para agregar un feature o fixear un issue hay que clonar el repositorio, instala
 Una vez terminados los cambios, con solo hacer un PR basta (porque la aplicación se compila automáticamente con cada push a master).
 
 Hay que tener en cuenta que localmente no funciona la base de datos, para evitar que se le pueda pegar desde cualquier lado. Si se necesita arreglar algo que interactua con la db, pedirle a algun autor la API key correspondiente.
+
+
+
+Proyecto actualmente en construcción, pero puede ser usado.
