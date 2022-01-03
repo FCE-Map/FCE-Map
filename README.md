@@ -1,4 +1,4 @@
-# [FCE Map](https://fdelmazo.github.io/FIUBA-Map/)
+# [FCE Map](https://fce-map.github.io/FCE-Map/)
 
 Este proyecto esta hecho en base al FIUBA Map (https://fdelmazo.github.io/FIUBA-Map/) el código fué adaptado para la Facultad de Ciencias Económicas de la UBA. 
 
