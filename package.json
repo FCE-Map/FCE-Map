@@ -1,5 +1,5 @@
 {
-  "name": "fiuba-map",
+  "name": "fce-map",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-scripts": "^3.4.3",
     "react-snowfall": "^1.1.1"
   },
-  "homepage": "https://fede.dm/FIUBA-Map",
+  "homepage": "https://fce-map.github.io/FCE-Map/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
