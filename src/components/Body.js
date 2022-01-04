@@ -252,7 +252,7 @@ const Body = (props) => {
           <Link
             isExternal
             color={useColorModeValue("text", "textdark")}
-            href="https://github.com/fdelmazo/FIUBA-Map"
+            href="https://github.com/FCE-Map/FCE-Map"
           >
             <Icon boxSize={5} ml={2} viewBox="0 0 16 16">
               <path
@@ -360,7 +360,7 @@ const Body = (props) => {
                                     ? "electivas.400"
                                     : "electivas.500",
                               }}
-                              href="https://github.com/FdelMazo/FIUBA-Map/issues/new"
+                              href="https://github.com/FCE-Map/FCE-Map/issues/new"
                             >
                               directamente{" "}
                               <ExternalLinkIcon

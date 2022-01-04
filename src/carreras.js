@@ -28,7 +28,7 @@ export const CARRERAS = [
   },
   {
     id: "contador",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-de-alimentos/plan-de-estudios",
+    link: "http://www.economicas.uba.ar/carreras/contador-publico/",
     graph: data.contador,
     nombre: "Contador Publico",
     nombrecorto: "Contador",
@@ -54,7 +54,7 @@ export const CARRERAS = [
   },
   {
     id: "sistemas",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-civil/plan-de-estudios",
+    link: "http://www.economicas.uba.ar/carreras/sistemas/",
     graph: data.sistemas,
     nombre: "Licenciatura en Sistemas de Información de las Organizaciones",
     nombrecorto: "Sistemas",
@@ -88,7 +88,7 @@ export const CARRERAS = [
   },
   {
     id: "actuarioeco",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-electricista/plan-de-estudios",
+    link: "http://www.economicas.uba.ar/carreras/actuario/",
     graph: data.actuarioeco,
     nombre: "Actuario - Economía",
     nombrecorto: "Actuario E",
@@ -118,7 +118,7 @@ export const CARRERAS = [
   },
   {
     id: "actuarioadmin",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-electronica/plan-de-estudios",
+    link: "http://www.economicas.uba.ar/carreras/actuario/",
     graph: data.actuarioadmin,
     nombre: "Actuario - Administración",
     nombrecorto: "Actuario A",
@@ -161,7 +161,7 @@ export const CARRERAS = [
   },
   {
     id: "economia",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-industrial/plan-de-estudios",
+    link: "http://www.economicas.uba.ar/carreras/economia/",
     graph: data.economia,
     nombre: "Licenciatura en Economía",
     nombrecorto: "Economía",
