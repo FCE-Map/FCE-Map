@@ -2,44 +2,44 @@ import CARRERAS from "./carreras";
 import { COLORS } from "./theme";
 
 export const USER_FORM =
-  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSedZWz0SJOLsxEscmHo8FDdTQyIF5xTczGBqr1Z6oLwKwiemw/formResponse";
+  "https://docs.google.com/forms/d/1NgoPEv6fXjXvlUvk392kDc32NvrvrJw-GoEudsgP5c8/formResponse";
 
 export const USER_FORM_ENTRIES = {
-  padron: "entry.1608351524",
-  carrera: "entry.1130086596",
-  orientacion: "entry.1483291801",
-  finDeCarrera: "entry.310979509",
+  padron: "entry.657244342",
+  carrera: "entry.979688332",
+  orientacion: "entry.659577924",
+  finDeCarrera: "entry.347359543",
 };
 
 export const GRAPH_FORM =
-  "https://docs.google.com/forms/d/e/1FAIpQLScEomNxSEdv07ifB9ep5olsemzRjdPoMMhWL6GLGhswm93shg/formResponse";
+  "https://docs.google.com/forms/d/1MlvUyTHENLlWsY2CLxZjZOXFkUFA1AUV8FnzlhlBUXA/formResponse";
 
 export const GRAPH_FORM_ENTRIES = {
-  padron: "entry.2064135385",
-  carrera: "entry.977368567",
-  map: "entry.2113204957",
+  padron: "entry.1632426062",
+  carrera: "entry.982143349",
+  map: "entry.151179448",
 };
 
 export const BUGS_FORM =
-  "https://docs.google.com/forms/d/1Mr4-4qWqZKaobjG3GI30aPvC5qlMsd6Eib3YGUbLd2k/formResponse";
+  "https://docs.google.com/forms/d/1QIjgX-B5dR4DuyDysUc1q1bTyx4N7n5Xa7hMDTyDTl8/formResponse";
 
 export const BUGS_FORM_ENTRIES = {
-  padron: "entry.108884877",
-  carrera: "entry.30310619",
-  orientacion: "entry.2052513370",
-  finDeCarrera: "entry.1835776497",
-  bug: "entry.817568535",
+  padron: "entry.361294849",
+  carrera: "entry.784231061",
+  orientacion: "entry.1472878618",
+  finDeCarrera: "entry.914097257",
+  bug: "entry.200735557",
 };
 
 export const SPREADSHEET =
-  "https://sheets.googleapis.com/v4/spreadsheets/1b6h2RApBs2xbN6-eGVvxH68EALKDklvS91fb7d_IVz4/values";
+  "https://sheets.googleapis.com/v4/spreadsheets/1OBZL-dAMRjgDdhmbl11DADyjYK1fzCuNIv7tvkszzu0/values";
 
 export const SHEETS = {
   user: "usuarios",
   registros: "registros",
 };
 
-export const KEY = "AIzaSyA9snz4CXDq_K8fJeUXkRtRZAQM90HTFp4";
+export const KEY = "4/0AX4XfWiXTMWotfsNTQ4lrq14QUJOARrbs6O3j3MKomxNiuhwb8CQwip_AXvYwtLH9BW4lQ";
 
 export const GRUPOS = {
   Aprobadas: { color: COLORS.aprobadas[400] },

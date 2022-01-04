@@ -3,77 +3,11 @@ import { COLORS } from "./theme";
 
 export const CARRERAS = [
   {
-    id: "sistemas",
-    link: "https://www.fi.uba.ar/grado/carreras/lic-en-analisis-de-sistemas/plan-de-estudios",
-    graph: data.sistemas,
-    nombre: "Licenciatura en Análisis de Sistemas",
-    nombrecorto: "Sistemas",
-    creditos: {
-      total: 176,
-      obligatorias: 136,
-      electivas: 28,
-      checkbox: [
-        {
-          nombre: "Prueba de nivel de idioma inglés",
-          nombrecorto: "Inglés",
-          bg: COLORS.enfinal[50],
-          color: "enfinal",
-        },
-      ],
-      materias: [
-        {
-          id: "95.61",
-          nombrecorto: "TPP",
-          bg: COLORS.findecarrera[50],
-          color: "findecarrera",
-        },
-      ],
-    },
-  },
-  {
-    id: "informatica",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-en-informatica/plan-de-estudios",
-    graph: data.informatica,
-    nombre: "Ingeniería en Informática",
-    nombrecorto: "Informática",
-    orientaciones: [
-      {
-        nombre: "Gestión Industrial de Sistemas",
-        colorScheme: "orientacion1",
-      },
-      { nombre: "Sistemas Distribuidos", colorScheme: "orientacion2" },
-      { nombre: "Sistemas de Producción", colorScheme: "orientacion3" },
-    ],
-    finDeCarrera: [
-      { id: "tesis", materia: "75.00" },
-      { id: "tpp", materia: "75.99" },
-    ],
-    creditos: {
-      total: 248,
-      obligatorias: 122,
-      orientacion: {
-        "Gestión Industrial de Sistemas": {
-          orientacion: 24,
-          electivas: { tesis: 78, tpp: 90 },
-        },
-        "Sistemas de Producción": {
-          orientacion: 22,
-          electivas: { tesis: 80, tpp: 92 },
-        },
-        "Sistemas Distribuidos": {
-          orientacion: 18,
-          electivas: { tesis: 84, tpp: 96 },
-        },
-      },
-    },
-    eligeOrientaciones: true,
-  },
-  {
-    id: "agrimensura",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-en-agrimensura/plan-de-estudios",
-    graph: data.agrimensura,
-    nombre: "Ingeniería en Agrimensura",
-    nombrecorto: "Agrimensura",
+    id: "administracion",
+    link: "http://www.economicas.uba.ar/carreras/administracion/",
+    graph: data.administracion,
+    nombre: "Administración de Empresas",
+    nombrecorto: "Administracion",
     finDeCarrera: [
       { id: "tesis", materia: "70.00" },
       { id: "tpp", materia: "70.99" },
@@ -93,11 +27,11 @@ export const CARRERAS = [
     },
   },
   {
-    id: "alimentos",
+    id: "contador",
     link: "https://www.fi.uba.ar/grado/carreras/ingenieria-de-alimentos/plan-de-estudios",
-    graph: data.alimentos,
-    nombre: "Ingeniería de Alimentos",
-    nombrecorto: "Alimentos",
+    graph: data.contador,
+    nombre: "Contador Publico",
+    nombrecorto: "Contador",
     creditos: {
       total: 234,
       materias: [
@@ -119,11 +53,11 @@ export const CARRERAS = [
     },
   },
   {
-    id: "civil",
+    id: "sistemas",
     link: "https://www.fi.uba.ar/grado/carreras/ingenieria-civil/plan-de-estudios",
-    graph: data.civil,
-    nombre: "Ingeniería Civil",
-    nombrecorto: "Civil",
+    graph: data.sistemas,
+    nombre: "Licenciatura en Sistemas de Información de las Organizaciones",
+    nombrecorto: "Sistemas",
     creditos: {
       total: 257,
       obligatorias: 210,
@@ -153,11 +87,11 @@ export const CARRERAS = [
     },
   },
   {
-    id: "electricista",
+    id: "actuarioeco",
     link: "https://www.fi.uba.ar/grado/carreras/ingenieria-electricista/plan-de-estudios",
-    graph: data.electricista,
-    nombre: "Ingeniería Electricista",
-    nombrecorto: "Electricista",
+    graph: data.actuarioeco,
+    nombre: "Actuario - Economía",
+    nombrecorto: "Actuario E",
     finDeCarrera: [
       { id: "tesis", materia: "85.00" },
       { id: "tpp", materia: "85.99" },
@@ -183,11 +117,11 @@ export const CARRERAS = [
     },
   },
   {
-    id: "electronica",
+    id: "actuarioadmin",
     link: "https://www.fi.uba.ar/grado/carreras/ingenieria-electronica/plan-de-estudios",
-    graph: data.electronica,
-    nombre: "Ingeniería Electrónica",
-    nombrecorto: "Electrónica",
+    graph: data.actuarioadmin,
+    nombre: "Actuario - Administración",
+    nombrecorto: "Actuario A",
     orientaciones: [
       { nombre: "Procesamiento de Señales", colorScheme: "orientacion1" },
       { nombre: "Automatización y Control", colorScheme: "orientacion2" },
@@ -226,11 +160,11 @@ export const CARRERAS = [
     },
   },
   {
-    id: "industrial",
+    id: "economia",
     link: "https://www.fi.uba.ar/grado/carreras/ingenieria-industrial/plan-de-estudios",
-    graph: data.industrial,
-    nombre: "Ingeniería Industrial",
-    nombrecorto: "Industrial",
+    graph: data.economia,
+    nombre: "Licenciatura en Economía",
+    nombrecorto: "Economía",
     finDeCarrera: [
       { id: "tesis", materia: "92.00" },
       { id: "tpp", materia: "92.99" },
@@ -238,6 +172,14 @@ export const CARRERAS = [
     creditos: {
       total: 245,
       obligatorias: 196,
+      materias: [
+        {
+          id: "HUM",
+          nombrecorto: "Humanística",
+          bg: COLORS.orientacion1[50],
+          color: "orientacion1",
+        },
+      ],
       checkbox: [
         {
           nombre: "Práctica Profesional de al menos 200 horas",
@@ -252,118 +194,7 @@ export const CARRERAS = [
           color: "enfinal",
         },
       ],
-      electivas: 36,
-    },
-  },
-  {
-    id: "mecanica",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-mecanica/plan-de-estudios",
-    graph: data.mecanica,
-    nombre: "Ingeniería Mecánica",
-    nombrecorto: "Mecánica",
-    orientaciones: [
-      { nombre: "Diseño Mecánico", colorScheme: "orientacion1" },
-      { nombre: "Termomecánica", colorScheme: "orientacion2" },
-      { nombre: "Metalúrgica", colorScheme: "orientacion3", nonEligible: true },
-      {
-        nombre: "Computación Aplicada",
-        colorScheme: "orientacion4",
-        nonEligible: true,
-      },
-      { nombre: "Industrias", colorScheme: "orientacion5", nonEligible: true },
-    ],
-    finDeCarrera: [
-      { id: "tesis", materia: "67.00" },
-      { id: "tpp", materia: "67.98" },
-    ],
-    creditos: {
-      total: 260,
-      obligatorias: 190,
-      orientacion: {
-        "Diseño Mecánico": {
-          orientacion: 28,
-          electivas: { tesis: 24, tpp: 28 },
-        },
-        Termomecánica: {
-          orientacion: 28,
-          electivas: { tesis: 24, tpp: 28 },
-        },
-      },
-    },
-    eligeOrientaciones: true,
-  },
-  {
-    id: "naval",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-naval-y-mecanica/plan-de-estudios",
-    graph: data.naval,
-    nombre: "Ingeniería Naval y Mecánica",
-    nombrecorto: "Naval",
-    finDeCarrera: [
-      { id: "tesis", materia: "73.00" },
-      { id: "tpp", materia: "73.99" },
-    ],
-    creditos: {
-      total: 264,
-      obligatorias: 226,
-      electivas: { tesis: 20, tpp: 38 },
-    },
-  },
-  {
-    id: "petroleo",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-en-petroleo/plan-de-estudios",
-    graph: data.petroleo,
-    nombre: "Ingeniería en Petróleo",
-    nombrecorto: "Petróleo",
-    finDeCarrera: [
-      { id: "tesis", materia: "79.00" },
-      { id: "tpp", materia: "79.99" },
-    ],
-    creditos: {
-      total: 246,
-      obligatorias: 216,
-      electivas: { tesis: 12, tpp: 16 },
-      checkbox: [
-        {
-          nombre: "Práctica Supervisada",
-          nombrecorto: "PS",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
-        {
-          nombre: "Prueba de nivel de idioma inglés",
-          nombrecorto: "Inglés",
-          bg: COLORS.enfinal[50],
-          color: "enfinal",
-        },
-      ],
-    },
-  },
-  {
-    id: "quimica",
-    link: "https://www.fi.uba.ar/grado/carreras/ingenieria-quimica/plan-de-estudios",
-    graph: data.quimica,
-    nombre: "Ingeniería Química",
-    nombrecorto: "Química",
-    finDeCarrera: [
-      { id: "tesis", materia: "76.64" },
-      { id: "tpp", materia: "76.59-76.62" },
-    ],
-    creditos: {
-      total: 252,
-      obligatorias: 216,
-      electivas: { tesis: 18, tpp: 24 },
-    },
-  },
-  {
-    id: "sistemasviejo",
-    link: "https://www.fi.uba.ar/grado/carreras/lic-en-analisis-de-sistemas/plan-de-estudios",
-    graph: data.sistemasviejo,
-    nombre: "Licenciatura en Análisis de Sistemas (1986)",
-    nombrecorto: "Sistemas (1986)",
-    creditos: {
-      total: 170,
-      obligatorias: 130,
-      electivas: 40,
+      electivas: 32,
     },
   },
 ];
