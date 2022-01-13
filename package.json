@@ -15,7 +15,7 @@
     "react-scripts": "^5.0.0",
     "react-snowfall": "^1.1.1"
   },
-  "homepage": "https://fce-map.github.io/FCE-Map/",
+  "homepage": "https://fce-map.github.io/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
