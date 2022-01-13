@@ -39,7 +39,7 @@ export const SHEETS = {
   registros: "registros",
 };
 
-export const KEY = "4/0AX4XfWiXTMWotfsNTQ4lrq14QUJOARrbs6O3j3MKomxNiuhwb8CQwip_AXvYwtLH9BW4lQ";
+export const KEY = "AIzaSyAMfm6ka2Zj5sdTLep6bHewS0PcUtPdpv0";
 
 export const GRUPOS = {
   Aprobadas: { color: COLORS.aprobadas[400] },
