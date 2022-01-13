@@ -93,7 +93,7 @@ export const economia = [
   {
     id: "262",
     materia: "Macroeconomía I",
-    creditos: 8,
+    creditos: 6,
     correlativas: "CBC",
     categoria: "Materias Obligatorias",
     level: 1,
@@ -101,7 +101,7 @@ export const economia = [
   {
     id: "283",
     materia: "Macroeconomía II",
-    creditos: 4,
+    creditos: 6,
     correlativas: "262-288",
     categoria: "Materias Obligatorias",
     level: 4,
