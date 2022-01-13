@@ -7,6 +7,8 @@ Todo el crédito es para el autor y los contribuyentes del FIUBA Map.
 
 Mapa de materias y sus correlativas de la Facultad de Ciencias Económicas
 
+Para las optativas, habría que agregar la cantidad de créditos de manera manual en la sección inferior de la página.
+
 ---
 
 La idea de este proyecto es presentar de una manera interactiva y visualmente rica en información el plan de estudios de las carreras de la Facultad de Ciencias Económicas, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
