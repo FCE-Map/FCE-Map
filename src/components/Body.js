@@ -248,7 +248,7 @@ const Body = (props) => {
             </Icon>
           </Link>
         </Tooltip>
-        <Tooltip label="FdelMazo/FIUBA-Map" placement="top">
+        <Tooltip label="FCE-Map/FCE-Map" placement="top">
           <Link
             isExternal
             color={useColorModeValue("text", "textdark")}
