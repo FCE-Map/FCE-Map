@@ -10,8 +10,8 @@ export const CARRERAS = [
     nombrecorto: "Administracion",
     finDeCarrera: [
       // Aca esta el seminario en el menu de inicio de sesion
-      { id: "tesis", materia: "460" },
-      { id: "tpp", materia: "70.99" },
+      //{ id: "tesis", materia: "460" },
+      //{ id: "tpp", materia: "70.99" },
     ],
     creditos: {
       total: 120,
@@ -103,8 +103,8 @@ export const CARRERAS = [
     nombre: "Actuario - Economía",
     nombrecorto: "Actuario E",
     finDeCarrera: [
-      { id: "tesis", materia: "85.00" },
-      { id: "tpp", materia: "85.99" },
+      //{ id: "tesis", materia: "85.00" },
+      //{ id: "tpp", materia: "85.99" },
     ],
     creditos: {
       total: 132,
@@ -146,8 +146,8 @@ export const CARRERAS = [
     //  { nombre: "Multiples Orientaciones", colorScheme: "orientacion8" },
     //],
     finDeCarrera: [
-      { id: "tesis", materia: "86.00" },
-      { id: "tpp", materia: "86.99" },
+      //{ id: "tesis", materia: "86.00" },
+      //{ id: "tpp", materia: "86.99" },
     ],
     creditos: {
       total: 132,
@@ -176,8 +176,9 @@ export const CARRERAS = [
     nombre: "Licenciatura en Economía",
     nombrecorto: "Economía",
     finDeCarrera: [
-      { id: "tesis", materia: "92.00" },
-      { id: "tpp", materia: "92.99" },
+      // cambie la tesis de 92.00 a 990
+      //{ id: "tesis", materia: "990" },
+      //{ id: "tpp", materia: "92.99" },
     ],
     creditos: {
       total: 245,
@@ -191,12 +192,12 @@ export const CARRERAS = [
         },
       ],
       checkbox: [
-        {
-          nombre: "Práctica Profesional de al menos 200 horas",
-          nombrecorto: "PP",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
+        //{
+        //  nombre: "Práctica Profesional de al menos 200 horas",
+        //  nombrecorto: "PP",
+        //  bg: COLORS.habilitadas[50],
+        //  color: "habilitadas",
+        //},
         //{
         //  nombre: "Prueba de nivel de idioma inglés",
         //  nombrecorto: "Inglés",
