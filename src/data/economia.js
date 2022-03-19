@@ -244,6 +244,13 @@ export const economia = [
   },
   // Pongo como correlativa "" a las electivas sin correlativas porque por el momento no sé cuáles son sus requisitos
   {
+    id: "000",
+    materia: "Electivas",
+    correlativas:"",
+    categoria: "Materias Electivas",
+    level: 6,
+  },
+  {
     id: "721",
     materia: "Poder Económico y Derechos Humanos",
     creditos: 4,
