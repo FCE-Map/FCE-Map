@@ -9,21 +9,22 @@ export const CARRERAS = [
     nombre: "Administración de Empresas",
     nombrecorto: "Administracion",
     finDeCarrera: [
-      { id: "tesis", materia: "70.00" },
+      // Aca esta el seminario en el menu de inicio de sesion
+      { id: "tesis", materia: "460" },
       { id: "tpp", materia: "70.99" },
     ],
     creditos: {
-      total: 208,
-      obligatorias: 178,
-      checkbox: [
-        {
-          nombre: "Estadía Supervisada de al menos 200 horas",
-          nombrecorto: "Estadía",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
-      ],
-      electivas: { tesis: 12, tpp: 18 },
+      total: 120,
+      obligatorias: 112,
+      //checkbox: [
+        //{
+        //  nombre: "Estadía Supervisada de al menos 200 horas",
+        //  nombrecorto: "Estadía",
+        //  bg: COLORS.habilitadas[50],
+        //  color: "habilitadas",
+        //},
+      //],
+      electivas: 8,
     },
   },
   {
@@ -32,11 +33,20 @@ export const CARRERAS = [
     graph: data.contador,
     nombre: "Contador Publico",
     nombrecorto: "Contador",
+    // "No me decidi":
+    finDeCarrera: [
+    ],
     creditos: {
       total: 234,
       materias: [
         {
-          id: "76.44",
+          id: "1358",
+          nombrecorto: "pp",
+          bg: COLORS.habilitadas[50],
+          color: "habilitadas",
+        },
+        {
+          id: "1361",
           nombrecorto: "pp",
           bg: COLORS.habilitadas[50],
           color: "habilitadas",
@@ -77,12 +87,12 @@ export const CARRERAS = [
           bg: COLORS.habilitadas[50],
           color: "habilitadas",
         },
-        {
-          nombre: "Prueba de nivel de idioma inglés",
-          nombrecorto: "Inglés",
-          bg: COLORS.enfinal[50],
-          color: "enfinal",
-        },
+        //{
+        //  nombre: "Prueba de nivel de idioma inglés",
+        //  nombrecorto: "Inglés",
+        //  bg: COLORS.enfinal[50],
+        //  color: "enfinal",
+        //},
       ],
     },
   },
@@ -187,12 +197,12 @@ export const CARRERAS = [
           bg: COLORS.habilitadas[50],
           color: "habilitadas",
         },
-        {
-          nombre: "Prueba de nivel de idioma inglés",
-          nombrecorto: "Inglés",
-          bg: COLORS.enfinal[50],
-          color: "enfinal",
-        },
+        //{
+        //  nombre: "Prueba de nivel de idioma inglés",
+        //  nombrecorto: "Inglés",
+        //  bg: COLORS.enfinal[50],
+        //  color: "enfinal",
+        //},
       ],
       electivas: 32,
     },

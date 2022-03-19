@@ -77,7 +77,7 @@ export const actuarioeco = [
   {
     id: "249",
     materia: "Historia Económica y Social Argentina",
-    creditos: 6,
+    creditos: 4,
     correlativas: "CBC",
     categoria: "Materias Obligatorias",
     level: 1,
@@ -205,7 +205,7 @@ export const actuarioeco = [
   {
     id: "754",
     materia: "Teoría Actuarial de los Seguros Personales",
-    creditos: 8,
+    creditos: 4,
     correlativas: "753",
     categoria: "Materias Obligatorias",
     level: 5,
@@ -213,7 +213,7 @@ export const actuarioeco = [
   {
     id: "755",
     materia: "Teoría Actuarial de los Seguros Patrimoniales",
-    creditos: 6,
+    creditos: 4,
     correlativas: "276-751-752",
     categoria: "Materias Obligatorias",
     level: 5,
@@ -252,7 +252,7 @@ export const actuarioeco = [
   {
     id: "724",
     materia: "Economía de la Seguridad Social",
-    creditos: 6,
+    creditos: 4,
     correlativas: "CBC",
     categoria: "Materias Electivas",
   },
