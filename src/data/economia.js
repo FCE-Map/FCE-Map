@@ -368,7 +368,7 @@ export const economia = [
     id: "745",
     materia: "Economía de la Energía",
     creditos: 6,
-    correlativas: "CBC",
+    correlativas: "286-290-262-283-551",
     categoria: "Materias Electivas",
     level: 7,
   },
