@@ -80,20 +80,20 @@ export const CARRERAS = [
           color: "findecarrera",
         },
       ],
-      checkbox: [
-        {
-          nombre: "Estadía Supervisada de al menos 200 horas",
-          nombrecorto: "Estadía",
-          bg: COLORS.habilitadas[50],
-          color: "habilitadas",
-        },
+      //checkbox: [
+      //  {
+      //    nombre: "Estadía Supervisada de al menos 200 horas",
+      //    nombrecorto: "Estadía",
+      //    bg: COLORS.habilitadas[50],
+      //    color: "habilitadas",
+      //  },
         //{
         //  nombre: "Prueba de nivel de idioma inglés",
         //  nombrecorto: "Inglés",
         //  bg: COLORS.enfinal[50],
         //  color: "enfinal",
         //},
-      ],
+      //],
     },
   },
   {
