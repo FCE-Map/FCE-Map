@@ -237,7 +237,7 @@ export const economia = [
   {
     id: "561",
     materia: "Cuentas Nacionales",
-    creditos: 4,
+    creditos: 6,
     correlativas: "247-262",
     categoria: "Materias Obligatorias",
     level: 2,
