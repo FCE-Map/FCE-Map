@@ -205,7 +205,7 @@ export const economia = [
   {
     id: "557",
     materia: "Estructura Social Argentina",
-    creditos: 6,
+    creditos: 2,
     correlativas: "249-561",
     categoria: "Materias Obligatorias",
     level: 3,
