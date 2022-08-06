@@ -1,6 +1,6 @@
 {
   "name": "fce-map",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^1.0.1",
@@ -9,10 +9,10 @@
     "@emotion/styled": "^11.6.0",
     "framer-motion": "^5.5.5",
     "react": "^16.14.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-graph-vis": "^1.0.7",
     "react-icons": "^4.3.1",
-    "react-scripts": "^5.0.0",
+    "react-scripts": "^5.0.1",
     "react-snowfall": "^1.1.1"
   },
   "homepage": "https://fce-map.github.io/",
